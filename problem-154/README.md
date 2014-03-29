@@ -67,17 +67,23 @@ W - weapon in an explored weapon room that you did not bother to loot which woul
 $ - gold in an explored gold room that you did not bother to loot. Not looting this means you did not understand the goal of the game.
 ##Examples:
 You are in the upper left corner of the cave.
+```
 ###
 #@?
 #.?
+```
 Just left the entrance and started to explore. Hey why did you leave that gold there?
+```
 ^??
 .@$
 .??
+```
 You are not having luck finding anything right now
+```
 ###
 .@.
 ...
+```
 ##Description of Room:
 Examples of how you might describe the rooms. Feel free to customize to your liking or humor.
 Entrance Room -- you see see the entrance here. You wish to run away?
@@ -90,6 +96,7 @@ Environmental Clues/Description:
 This is giving you clues to nearby threats as well as describing any battles if you enter a room with a Wumpus and you are armed.
 If next to a pit room you see a message like "Howling Winds Fill the Room" If next to a Wumpus room you see a message like "A fowl Stench fills the room" If you enter a room with a wumpus you describe if you kill it or you get eaten based on if you have a weapon or not. If you enter a pit trap room - have fun describing how one falls before showing the game over.
 So putting it all together you might see these screen shots
+```
 ###
 #@?
 #.?
@@ -120,6 +127,7 @@ Say you exit out of the dungeon
 You exit the Wumpus cave and run to town. People buy you ales as you tell the story of your adventure.
 ***GAME OVER***
 You scored 120 points! Well Played!
+```
 #Notes:
 I have done what I can to layout the challenge with a very large design requirement. There will be potential for holes or missing elements in the design or things I perhaps did not address in the design. Please find a suitable solution that fits your desire and implementation and consider this part of the challenge. However if you wish to ask questions about the design or point out obvious things missing from the design, please comment and I can make adjustments.
 Be creative. There are lots of strings for feedback or descriptions. Come up with your own or perhaps find a way to do random strings to keep the game fresh and unique. Add other features or monsters or whatever. This design for the challenge is much like the pirate code - it is just a bunch of guidelines for you to bend to your need and liking.
