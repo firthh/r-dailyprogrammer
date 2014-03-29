@@ -51,6 +51,7 @@ There are no clues to being near an empty room, gold or weapons.
 either pass the N size of the cave as a start up value, you can prompt for it, you can hard code it. Whatever you like but somehow you must set the N value of the cave.
 Status:
 The program will give status to the user in the following format
+```
 (Ascii Display of surrounding rooms)
 (Description of Room you are in)
 (Environment Clues/Description)
@@ -65,6 +66,7 @@ You will show the 8 rooms surrounding you. Use the following ASCII values to rep
 ^ - Entrance to the cave where you can run out
 W - weapon in an explored weapon room that you did not bother to loot which would be odd. You can't beat a Wumpus Unarmed.
 $ - gold in an explored gold room that you did not bother to loot. Not looting this means you did not understand the goal of the game.
+```
 ##Examples:
 You are in the upper left corner of the cave.
 ```
@@ -112,18 +114,24 @@ Enter Move (? for help) >
 Empty Room - there is nothing here but air.
 [23 points earned] You are armed and dangerous.
 Enter Move (? for help) >
-End of Game Message:
+```
+#End of Game Message:
 When the game ends due to the conditions display why the game is over. Say the game is over and show the final points.
-Examples:
+##Examples:
 Say you find a wumpus unarmed.
+```
 A Wumpus attacks you and makes you his lunch.
 ***GAME OVER***
 You scored 24 Points!
+```
 Say you find that pit trap:
+```
 You fall to your death. Your screams are heard by no one.
 ***GAME OVER***
 You scored 1 whole point!
+```
 Say you exit out of the dungeon
+```
 You exit the Wumpus cave and run to town. People buy you ales as you tell the story of your adventure.
 ***GAME OVER***
 You scored 120 points! Well Played!
